@@ -15,6 +15,7 @@ int main(void)
 		putchar(d);
 		d++;
 	}
+
 	char c = 'a';
 
 	while (c <= 'f')
@@ -22,6 +23,7 @@ int main(void)
 		putchar(c);
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
-}
+
