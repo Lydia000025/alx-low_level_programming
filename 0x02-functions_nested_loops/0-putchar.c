@@ -10,7 +10,7 @@ int main(void)
 	{
 		for  ( ; ; )
 		{
-			printf("_putchar %d" / n)
+			printf("_putchar %d" )
 		}
 		return (0);
 	}
