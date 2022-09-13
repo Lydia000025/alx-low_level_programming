@@ -11,6 +11,7 @@ int main(void)
 {
 	for  ( ; ; )
 	{
+		char n = _putchar
 		printf("_putchar" % d / n)
 	}
 	return (0);
