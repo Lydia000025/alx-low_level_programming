@@ -9,6 +9,7 @@ int main(void)
 {
 	int i = 0;
 	char output[] = "_putchar";
+	
 	while (i < 9)
 	{
 		_putchar(output[i]);
