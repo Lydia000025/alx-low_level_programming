@@ -10,6 +10,7 @@ int main(void)
 	{
 		for  ( ; ; )
 		{
+			char n = _putchar
 			printf("_putchar %d" )
 		}
 		return (0);
