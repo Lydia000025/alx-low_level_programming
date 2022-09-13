@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-	for  ( ; ; )
-	{
-		char n = _putchar
-		printf("_putchar" % d / n)
-	}
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	putchar('\n');
+	
 	return (0);
 }
 
