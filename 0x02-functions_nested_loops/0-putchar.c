@@ -8,10 +8,10 @@
  */
 int main(void)
 	{
-		for  ( ; ; )
-		{
-			char n = _putchar
-			printf("_putchar %d" )
-		}
+		char c;
+
+		for  (c = 'a'; c <= 'z'; c++ )
+			_putchar(c);
+		_putchar('\n');
 		return (0);
 	}
