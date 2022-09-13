@@ -5,7 +5,7 @@
  * Description - alphabet game.
  * Return: Always 0.
  */
-int main(void)
+int main()
 {
 	char c= 'a';
 	
