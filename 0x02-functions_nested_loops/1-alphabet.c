@@ -2,15 +2,19 @@
 #include "main.h"
 /**
  * main - check the code
- *
+ * Description - alphabet game.
  * Return: Always 0.
  */
 int main(void)
 {
-	char c;
+	char c= 'a';
 	
-	for  (c = 'a'; c<='z'; c++)
+	while (c <= 'z')
+	{
 		putchar(c);
+		c++;
+	}
+
 	putchar('\n');
 	return (0);
 }
