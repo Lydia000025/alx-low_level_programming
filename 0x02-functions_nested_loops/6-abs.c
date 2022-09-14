@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _abs- absoulte value function
+ * _abs - absoulte value function
+ * for input
  *
- * return abs value
+ * @a: input parameter
+ * Return: abs value
  */
 int _abs(int a)
 {
