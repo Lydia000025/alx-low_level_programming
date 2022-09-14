@@ -35,11 +35,11 @@ void print_times_table(int n)
 				}
 				else
 				{
-				_putchar(((op / 100) % 10) + 48));
+				_putchar(((op / 100) % 10) + 48);
 				_putchar(((op / 10) % 10) + 48);
 				_putchar(((op % 10) + 48));
 				}
 			_putchar('\n');
 			}
-			}
+		}
 
