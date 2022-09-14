@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * Print_times_table - print times table
+ * print_times_table - print times
+ * table
  *
- * return no return
+ * @n: input number
+ * Return: no return
  */
 void print_times_table(int n)
 {
-	int a, b, c;
+	int a, b, op;
 
 	if (n >= 0 && n <= 15)
 	{
