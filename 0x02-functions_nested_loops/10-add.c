@@ -2,10 +2,13 @@
 #include <stdio.h>
 
 /**
- * add -sum operation on two integers
- * num1 and num2 are integer 1 and 2 respectively
+ * add - returns sum of integers
+ * num1 and num2 parametrs
  *
- *  return sum
+ * @num1: number input to be added
+ * @num2: second number input to be added
+ *
+ *  Return: sum
  */
 int add(int num1, int num2)
 {
