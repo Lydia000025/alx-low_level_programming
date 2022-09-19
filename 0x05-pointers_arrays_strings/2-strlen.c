@@ -2,11 +2,10 @@
 #include < stdio.h>
 
 /**
- * _strlen: a function that returns the 
+ * _strlen - a function that returns the
  * length of a string.
- * @s - input parameter
- * 
- * Retun- Always 0;
+ * @s: input parameter
+ * Return: len.
  */
 int _strlen(char *s);
 {
