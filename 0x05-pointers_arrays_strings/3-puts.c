@@ -6,7 +6,7 @@
  * @str: input parameter
  * Return: void.
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	printf("%s\n", str);
 }
