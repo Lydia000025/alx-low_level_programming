@@ -2,23 +2,18 @@
 
 /**
  * _strcat - concatenates wto strings
- *
  * @dest: input parameter
  * @src: second input parameter
- * Return: 0
+ * Return:pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
-	int j = -1;
+	int j = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
-
-	do {
+	while (dest[i++])
 		j++;
-		dest[i] = src[a];
-		i++;
-	} while (src[a] != '\0');
-
+	for (i = 0; src[i]; i++)
+		dest[j++] = src[i];
 	return (dest);
 }
