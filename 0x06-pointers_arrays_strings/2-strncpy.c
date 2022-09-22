@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * -strncpy - coppies of input numbers
