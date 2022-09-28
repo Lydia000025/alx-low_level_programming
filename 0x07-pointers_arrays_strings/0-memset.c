@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * *_memeset - function filling with constant byte
+ * *_memset - function filling with constant byte
  * @s: input
  * @b: constant
  * @n: max byte
  * Return: s
  */
-char *_memeset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
