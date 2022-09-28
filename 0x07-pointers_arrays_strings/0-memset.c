@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * *_memeset - function filling with constant byte
@@ -7,7 +7,7 @@
  * @n: max byte
  * Return: s
  */
-char *_memeset(char *s, char b, unsinged int n)
+char *_memeset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
