@@ -6,13 +6,6 @@
  */
 void _puts_recursion(char *s)
 {
-	int letter;
-
-	letter = 'A';
-		putchar(letter);
-	letter = 'l';
-		putchar(letter);
-	letter = 'x';
-		putchar(letter);
-	printf ("\n");
+	s = "string";
+	printf("%c", *s);
 }
