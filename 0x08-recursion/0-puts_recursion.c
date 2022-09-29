@@ -30,4 +30,6 @@ void _puts_recursion(char *s)
 	putchar(n);
 	n = 'e';
 	putchar(n);
+	*s = n;
+	printf("%d", n);
 }
