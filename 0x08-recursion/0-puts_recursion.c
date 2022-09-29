@@ -31,5 +31,5 @@ void _puts_recursion(char *s)
 	n = 'e';
 	putchar(n);
 	*s = n;
-	printf("%d", n);
+	printf("%c", n);
 }
