@@ -6,19 +6,9 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int n;
-
-	n = 't';
-	putchar(n);
-	n = 's';
-	putchar(n);
-	n = 'r';
-	putchar(n);
-	n = 'i';
-	putchar(n);
-	n = 'F';
-	putchar(n);
-	printf("\n");
-	*s = n;
-	printf("%c", n);
+	if (*s > '\0')
+	{
+		_print_rev_recursion(s + 1);
+		putchar(*s);
+	}
 }
