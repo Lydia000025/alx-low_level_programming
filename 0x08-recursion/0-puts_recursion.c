@@ -8,7 +8,4 @@ void _puts_recursion(char *s)
 {
 	s = "First, solve the problem. Then, write the code";
 	printf("%c", *s);
-	s = "Talk is cheap. Show me the code";
-		printf("%c", *s);
-	s = "" "";
 }
