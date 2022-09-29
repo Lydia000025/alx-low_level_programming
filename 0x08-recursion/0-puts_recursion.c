@@ -6,19 +6,13 @@
  */
 void _puts_recursion(char *s)
 {
-	int n;
-
-	n = 'F';
-	putchar(n);
-	n = 'i';
-	putchar(n);
-	n = 'r';
-	putchar(n);
-	n = 's';
-	putchar(n);
-	n = 't';
-	putchar(n);
-	printf("\n");
-	*s = n;
-	printf("%c", n);
+if (*s == '\0')
+{
+	putchar('\n');
+}
+else
+{
+	putchar(*s);
+	_puts_recursion(s + 1);
+}
 }
