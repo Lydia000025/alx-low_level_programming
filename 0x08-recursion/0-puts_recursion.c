@@ -6,6 +6,6 @@
  */
 void _puts_recursion(char *s)
 {
-	s = "string";
+	s = "First, solve the problem. Then, write the code";
 	printf("%c", *s);
 }
