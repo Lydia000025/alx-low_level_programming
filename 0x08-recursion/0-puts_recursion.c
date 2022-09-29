@@ -16,6 +16,9 @@ void _puts_recursion(char *s)
 	putchar(n);
 	n = 's';
 	putchar(n);
+	n = 't';
+	putchar(n);
+	printf("\n");
 	*s = n;
 	printf("%c", n);
 }
