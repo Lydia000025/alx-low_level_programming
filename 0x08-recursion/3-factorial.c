@@ -1,25 +1,21 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * factorial - a funtion that gives factorial
- * @n: input number
- * @return: int
+ * factorial - finds factoial
+ * @n: integer
+ * Return: int
  */
 int factorial(int n)
 {
-	int factorial;
+	int num;
 
-	printf("Enter an integer");
-	scanf("%d", &n);
 	if (n < 0)
 	{
 		return (-1);
 	}
 	else if (n > 0)
 	{
-		factorial = n * factorial;
-		n--;
-		printf("%d", n);
+		return (n * factorial(n - 1));
 	}
 	else
 		return (1);
