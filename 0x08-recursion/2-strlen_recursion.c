@@ -8,8 +8,11 @@
  */
 int _strlen_recursion(char *s)
 {
-	char sent[50] = "First write the code. Then ";
-	*s = *sent;
-	printf("length is: %ld", strlen(sent));
-	return (0);
+	int size = 0;
+
+	if (*s > '\0')
+	{
+		size += _strlen_recursion(s + 1) + 1;
+	}
+	return (size);
 }
