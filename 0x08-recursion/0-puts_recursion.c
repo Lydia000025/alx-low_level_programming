@@ -6,7 +6,28 @@
  */
 void _puts_recursion(char *s)
 {
-	char *sent = "First, solve the problem. Then, write the code";
-	*s =*sent;
-	printf("%c", *s);
+	int n;
+
+	n = 'F';
+	putchar(n);
+	n = 'i';
+	putchar(n);
+	n = 'r';
+	putchar(n);
+	n = 's';
+	putchar(n);
+	n = 't';
+	putchar(n);
+	n = ' ';
+	putchar(n);
+	n = 'w';
+	putchar(n);
+	n = 'r';
+	putchar(n);
+	n = 'i';
+	putchar(n);
+	n = 't';
+	putchar(n);
+	n = 'e';
+	putchar(n);
 }
