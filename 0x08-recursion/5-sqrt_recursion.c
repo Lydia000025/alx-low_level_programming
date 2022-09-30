@@ -8,9 +8,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	int square = n * n;
-
-	return (square);
+	return (square(n - 1));
 }
 
 /**
