@@ -1,3 +1,4 @@
+ar rc libmy.a util_file.o util_net.o util_math.o
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
