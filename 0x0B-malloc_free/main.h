@@ -1,4 +1,4 @@
-f !defined(MAIN_H)
+#if !defined(MAIN_H)
 #define MAIN_H
 
 #include <stdlib.h>
