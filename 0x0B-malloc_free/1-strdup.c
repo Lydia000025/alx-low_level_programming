@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <sdtio.h>
+#include <stdio.h>
 /**
  * *_strdup - function
  * *str: char
