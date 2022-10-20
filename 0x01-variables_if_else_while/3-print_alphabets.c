@@ -7,12 +7,14 @@
 
 int main(void)
 {
-	int l = 97 , i, u;
+	int l , u;
 	
-	for (i = 0; i < 25; i++)
+	for (l = 97; l < 123; l++)
 	{
-		putchar(l + i);
-		u = l - 32;
+		putchar(l);
+	}
+	for (u = 65; u < 90; u++)
+	{
 		putchar(u);
 	}
 	putchar('\n');
