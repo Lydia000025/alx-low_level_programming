@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * void - function
+ * print - function
  */
-void print()
+void print(void)
 {
 	printf("%s", "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 }
