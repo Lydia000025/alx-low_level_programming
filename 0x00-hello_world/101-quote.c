@@ -12,6 +12,6 @@ void print()
  */
 int main(void)
 {
-	print;
+	print();
 	return (1);
 }
