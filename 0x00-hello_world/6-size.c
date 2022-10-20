@@ -14,7 +14,7 @@ int main(void)
 
 	printf("Size of a char: ");
 	printf("%li", sizeof(a));
-	printf(" byte(s)");
+	printf(" byte(s)\n");
 	printf("\nSize of an int: ");
 	printf("%li", sizeof(b));
 	printf(" byte(s)");
