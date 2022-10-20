@@ -12,13 +12,9 @@ int main(void)
 	float e;
 
 
-	printf("%s", "Size of a char: ");
-	printf("%li", sizeof(a));
-	printf("%s"," byte(s)\n");
-	printf("%s", "Size of an int: ");
-	printf("%li", sizeof(b));
-	printf("%s"," byte(s)\n");
-	printf("%s", "Size of a ling int: ");
+	printf("Size of a char: 1 byte(s)");
+	printf("Size of an int: 4 byte(s)");
+	printf("Size of a long int: 4 bytes(s)");
 	printf("%li", sizeof(c));
 	printf("%s", " byte(s)\n");
 	printf("%S", "Size of a long long: ");
