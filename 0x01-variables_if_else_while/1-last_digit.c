@@ -18,7 +18,7 @@ int main(void)
 		printf("%i", n);
 		printf("%s", " is ");
 		printf("%i", l);
-		printf("%s", " and is 0");
+		printf("%s", " and is 0\n");
 	}
 	 else if (l > 5)
 	 {
@@ -26,7 +26,7 @@ int main(void)
 		  printf("%i", n);
 		  printf("%s", " is ");
 		  printf("%i", l);
-		  printf("%s", " and is greater than 5");
+		  printf("%s", " and is greater than 5\n");
 	 }
 	else 
 	{
@@ -34,7 +34,7 @@ int main(void)
 		printf("%i", n);
 		printf("%s", " is ");
 		printf("%i", l);
-		printf("%s", " and is less than 6 and not 0");
+		printf("%s", " and is less than 6 and not 0\n");
 	}
 	return (0);
 }
