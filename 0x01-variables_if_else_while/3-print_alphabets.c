@@ -2,11 +2,14 @@
 #include <stdlib.h>
 int main(void)
 {
-	int l = 97 , u;
+	int l = 97 , i, u;
 	
-	putchar(l);
-	u = l + 32;
-	putchar(u);
-	putchar('\n');
-	return (0);
+	for (i = 0; i < 25; i++)
+	{
+		putchar(l);
+		u = l - 32;
+		putchar(u);
+		putchar('\n');
+	}
+		return (0);
 }
