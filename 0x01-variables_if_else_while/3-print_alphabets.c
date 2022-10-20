@@ -2,18 +2,14 @@
 #include <stdlib.h>
 int main(void)
 {
-	int l = 103, u;
+	int l = 97 , u;
 	
-	if( l > 97 && l < 122)
+	if( l > 96 && l < 123);
 	{
-		int i;
-		for(i = 0; i < (l - 32); i++)
-		{
-			putchar(l);
-			u = l + 32;
-			putchar(u);
-			putchar('\n');
-		}
+		putchar(l);
+		u = l + 32;
+		putchar(u);
+		putchar('\n');
+	}
 	return (0);
-}
 }
