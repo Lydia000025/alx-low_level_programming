@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-int mani(void)
+int main(void)
 {
-	int l, u;
+	int l = 103, u;
 	
 	if( l > 97 && l < 122)
 	{
