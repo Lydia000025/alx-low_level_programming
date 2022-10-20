@@ -6,7 +6,8 @@ int mani(void)
 	
 	if( l > 97 && l < 122)
 	{
-		for(int i=0; i< (l - 32); i++)
+		int i;
+		for(i = 0; i < (l - 32); i++)
 		{
 			putchar(l);
 			u = l + 32;
@@ -15,4 +16,4 @@ int mani(void)
 		}
 	return (0);
 }
-
+}
