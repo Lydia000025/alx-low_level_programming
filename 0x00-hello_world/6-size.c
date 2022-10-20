@@ -26,7 +26,7 @@ int main(void)
 	printf(" byte(s)");
 	printf("\nSize of a float: ");
 	printf("%li", sizeof(e));
-	printf(" byte(s)");
+	printf(" byte(s)\n");
 	return (0);
 }
 
