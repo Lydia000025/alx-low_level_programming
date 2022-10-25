@@ -7,14 +7,9 @@ int main()
 {
 	char n;
 
-	while(n = 'z')
+	for(n = 'z'; n >= 'a'; n++)
 	{
-		if (n =='a')
-		{
-			return (0);
-		}
 		putchar (n);
-		n--;
 	}
 	return (0);
 }
