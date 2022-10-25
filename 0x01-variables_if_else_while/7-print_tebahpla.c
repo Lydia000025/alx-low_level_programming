@@ -7,7 +7,7 @@ int main()
 {
 	int n;
 
-	for(n = 'z'; n >= 'a'; n++)
+	for(n = 'z'; n >= 'a'; n--)
 	{
 		putchar (n);
 	}
