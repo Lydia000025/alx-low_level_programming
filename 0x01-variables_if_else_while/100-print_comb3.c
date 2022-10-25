@@ -7,16 +7,12 @@ int main()
 {
 	int n, k;
 
-	for (n = 0; n < 10; n++)
+	for (n = 0, k = 0; n < 10, k < 10; n++, k++)
 	{
 		putchar(n +'0');
-		for (k = 0; k < 10; n++)
-		{
-			putchar(k + '0');
-			putchar(',');
-			putchar(' ');
-		}
-
+		putchar(k + '0');
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
