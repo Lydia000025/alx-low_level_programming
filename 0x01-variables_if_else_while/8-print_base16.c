@@ -13,8 +13,8 @@ int main()
 	}
 	for (n = 'A'; n < 'G'; n++)
 	{
-		putchar(n)
+		putchar(n);
 	}
-	purchar('\n');
+	putchar('\n');
 	return (0);
 }
