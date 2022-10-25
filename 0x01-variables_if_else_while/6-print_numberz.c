@@ -9,7 +9,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(n[i]);
+		putchar('0123456789');
 	}
 	putchar('\n');
 	return (0);
