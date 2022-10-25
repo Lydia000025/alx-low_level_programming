@@ -1,23 +1,19 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * print_alphabet_x10 - prints alphabet 10x
- *
- * Returns void
+ * print_alphabet_x10 - function
  */
-
 void print_alphabet_x10(void)
 {
-	int  i;
-
-	for (i = 0; i < 10; i++)
+	int i, j;
+	char n[] = "abcdefghijklmnopqrstuvwxyz";
+	
+	while (j < 11)
 	{
-		char c;
-
-		for (c = 'a'; c <= 'z'; c++)
+		for (i = 0; i <26; i++)
 		{
-			_putchar(c);
+		putchar(n[i]);
 		}
-		_putchar('\n');
+		j++;
 	}
+	putchar('\n');
 }
