@@ -5,9 +5,16 @@
  */
 int main()
 {
-	char n = 'Gite';
-	int m = n%10;
-	
-	putchar(m);
+	char n;
+
+	while(n = 'z')
+	{
+		if (n =='a')
+		{
+			return (0);
+		}
+		putchar (n);
+		n--;
+	}
 	return (0);
 }
