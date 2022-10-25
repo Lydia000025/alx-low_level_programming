@@ -9,7 +9,7 @@ int main()
 
 	for (n = 0; n < 10; n++)
 	{
-		putchar(n +'00');
+		putchar(n +'0'+'0');
 	}
 	return (0);
 }
