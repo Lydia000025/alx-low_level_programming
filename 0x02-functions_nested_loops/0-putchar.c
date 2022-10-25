@@ -10,11 +10,7 @@ int main(void)
 	int i = 0;
 	char output[] = "_putchar";
 	
-	while (i < 9)
-	{
-		_putchar(output[i]);
-		i++;
-	}
+	_putchar(output[i]);
 	_putchar('\n');
 	return (0);
 }
