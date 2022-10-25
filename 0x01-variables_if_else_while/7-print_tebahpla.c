@@ -5,7 +5,7 @@
  */
 int main()
 {
-	char n;
+	int n;
 
 	for(n = 'z'; n >= 'a'; n++)
 	{
