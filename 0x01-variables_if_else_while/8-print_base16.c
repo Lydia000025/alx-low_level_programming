@@ -3,7 +3,7 @@
  * main -function
  * Return: 0
  */
-int main()
+int main(void)
 {
 	int n;
 	
@@ -11,7 +11,7 @@ int main()
 	{
 		putchar(n + '0');
 	}
-	for (n = 'A'; n < 'G'; n++)
+	for (n = 'a'; n < 'g'; n++)
 	{
 		putchar(n);
 	}
