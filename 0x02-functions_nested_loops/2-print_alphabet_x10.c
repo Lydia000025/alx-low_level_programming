@@ -4,7 +4,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int i, j;
+	int i;
 	char n[] = "abcdefghijklmnopqrstuvwxyz";
 	
 	for (i = 0; i <26; i++)
