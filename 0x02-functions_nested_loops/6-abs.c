@@ -1,16 +1,14 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * _abs - absoulte value function
- * for input
- *
- * @a: input parameter
- * Return: abs value
+ * _abs - function
+ * return: 0
  */
-int _abs(int a)
+int _abs(int)
 {
-	if (a >= 0)
-		return (a);
+	int n;
+	if (n >= 0)
+		return (n);
 	else
-		return (a * -1);
+		return (-n);
 }
